@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>explode demo</title>
+  
+  <style>
+  #toggle {
+    width: 100px;
+    height: 100px;
+    background: #ccc;
+  }
+  </style>
+  <script src="E:/Webpage/jscript/break.js"></script>
+  <script src="E:/Webpage/jscript/break1.js"></script>
+</head>
+<body>
+ 
+<p>Click anywhere to toggle the box.</p>
+<div id="toggle">
+<img src="10985959_985503391484445_3845401277885531261_n.jpg">
+</div>
+ 
+<script>
+$( document ).click(function() {
+  $( "#toggle" ).toggle( "explode" );
+});
+</script>
+ 
+</body>
+</html>
